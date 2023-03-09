@@ -1,10 +1,10 @@
 var numbers = [];
 
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < 20; i++) {
   let a = true,
       n;
   while(a) {
-    n = Math.floor(Math.random() * 100) + 1;
+    n = Math.floor(Math.random() * 50) + 1;
     a = numbers.includes(n);
   }
   numbers.push(n);
