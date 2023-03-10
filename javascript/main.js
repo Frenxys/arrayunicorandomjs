@@ -1,8 +1,6 @@
-var numbers = [];
-
+var numbers = []
 for (let i = 0; i < 20; i++) {
-  let a = true,
-      n;
+  let a = true,n;
   while(a) {
     n = Math.floor(Math.random() * 50) + 1;
     a = numbers.includes(n);
